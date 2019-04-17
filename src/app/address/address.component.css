@@ -1,0 +1,201 @@
+header {
+  width: 100%;
+  height: 500px;
+  background: #2c2e31;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(181, 230, 125);
+}
+
+.header {
+  width: 100%;
+  height: 500px;
+  background: #2c2e31;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+.card_offset {
+  margin-top: -200px;
+  margin-left: 450px;
+}
+
+.frame {
+  max-width: 730px;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(0, 0, 0, .15);
+}
+
+.card {
+  position: relative;
+  padding: 20px 0;
+  width: 100%;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+  overflow: hidden;
+  text-align: center;
+  z-index: 5;
+}
+
+.card .user_photo img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.card .user_photo {
+  position: relative;
+  background: #fff;
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  border: 1px solid rgba(0, 0, 0, .25);
+}
+
+.horizontal_center {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.card #user_title {
+  color: #999;
+  font-size: 18px;
+  margin: 0;
+}
+
+.card #user_value {
+  color: #2c2e31;
+  font-size: 38px;
+  margin: 5px;
+  text-transform: capitalize;
+}
+
+.card:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 130px;
+  top: 0;
+  background: #f9f9f9;
+  border-bottom: 1px solid rgba(0, 0, 0, .15);
+  z-index: -1;
+}
+
+body {
+  background-color: #f9f9f9;
+  font-family: Ubuntu, sans-serif;
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  position: relative;
+  left: 0;
+}
+
+body {
+  margin: 0;
+}
+
+/* Base16 Atelier Dune Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Dune Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #7d7a68;
+}
+
+/* Atelier-Dune Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #d73737;
+}
+
+/* Atelier-Dune Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #b65611;
+}
+
+/* Atelier-Dune Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #60ac39;
+}
+
+/* Atelier-Dune Blue */
+.hljs-title,
+.hljs-section {
+  color: #6684e1;
+}
+
+/* Atelier-Dune Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #b854d4;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #fefbec;
+  color: #6e6b5e;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
